@@ -33,29 +33,34 @@ form .fa-magnifying-glass{
     align-self:center;
     padding: 10px 20px;
     color:#777;
+}
 
+.container{
+    margin-left: 70px;
+    margin-top: 10px;
 }
 
 .navbar-container {
     height: 70px;
     padding: 1rem 0;
-    position:sticky;
-    top: 0;
-    z-index:1000;
     backdrop-filter: blur(40px);
     display: flex;
 }
 
 .logo{
     margin-top: -30px;
+    margin-left: -10px;
+    cursor: pointer;
 }
 
 .nav-links a {
     color:black;
     text-decoration: none;
-    margin-left: 80px;
+    display: inline-block;
     transition: background-color 0.3s ease;
     font-size: 20px;
+    margin-left: 50px;
+    margin: 30px;
 }
 
 .nav-links a:hover {
