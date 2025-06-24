@@ -8,6 +8,15 @@ body{
     margin: 0;
 }
 
+h1{
+    text-align: center;
+    font-size:50px;
+}
+
+.video{
+    text-align: center;
+}
+
 form{
     background: #fff;
     width:600px;
@@ -49,7 +58,7 @@ form .fa-magnifying-glass{
 
 .logo{
     margin-top: -30px;
-    margin-left: -10px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -59,8 +68,8 @@ form .fa-magnifying-glass{
     display: inline-block;
     transition: background-color 0.3s ease;
     font-size: 20px;
-    margin-left: 50px;
-    margin: 30px;
+    padding: 0px 10px;
+    margin: 20px;
 }
 
 .nav-links a:hover {
