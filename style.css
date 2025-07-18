@@ -100,7 +100,7 @@ form .fa-magnifying-glass{
     cursor: pointer;
 }
 
-.nav-links a {
+.menu a {
     color:white;
     text-decoration: none;
     display: inline-block;
@@ -111,7 +111,7 @@ form .fa-magnifying-glass{
     margin-right: 70px;
 }
 
-.nav-links a:hover {
+.menu a:hover {
     background-color: DarkBlue;
     border-radius: 5px;
 }
