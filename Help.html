@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climate Change</title>
+    <title>Help</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="navbar-container">
-        <div class="logo">
-            <img src="Image gallery/Logo.png" width="210" height="130" onclick="window.location.href='index.html'">
-        </div>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="Help.html">What you can do to help</a>
-            <a href="About.html">About</a>
-            <a href="Contact.html">Contact Us</a>
-        </nav>
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="Image gallery/Logo.png" width="210" height="130" onclick="window.location.href='index.html'">
 
-        <div class="container">
-            <form>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="What are you looking for?">
-                <button type="submit">Search</button>
-            </form>
+
+            <div class="menu-toggle">≡</div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Help.html">What you can do to help</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+
+            <div class="container">
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What are you looking for?">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <h1>Why should we fight against climate change?</h1>
 
     <h1>What you can do to help</h1>
+    <script src="nav.js"></script>
 
 </body>
 </html>
