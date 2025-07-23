@@ -134,6 +134,41 @@ nav {
     text-align: left;
 }
 
+.textbox2{
+    max-width:800px;
+    min-height: 400px;
+    margin-left: 50px;
+    margin-bottom:50px;
+    padding: 40px 50px;
+    background: rgba(33, 70, 120, 1);
+    left:150px;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.textbox2 h1 {
+    font-size 5rem;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.intro2 {
+    font-size: 1rem;
+    line-height: 1.8;
+    color:white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background:rgba(255,255,255,0.1);
+    border-radius: 15px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
 h1{
     text-align: center;
     font-size:50px;
@@ -177,17 +212,17 @@ form .fa-magnifying-glass{
 
 
 .footer-container {
-    background-color: #4682B4;
-    padding-bottom: 2 rem 0 4rem 0;
+    background-color: rgba(33, 70, 120, 1);
+    display: flex;
 }
 
 .footer {
     width:80%;
-    height: 40vh;
-    background-color: #4682B4;
+    height: 25vh;
+    background-color: rgba(33, 70, 120, 1);
     color: #fff;
     display: flex;
-    justify content: center;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -209,7 +244,7 @@ form .fa-magnifying-glass{
 }
 
 .footer-heading a:hover {
-    color: red;
+    color: DarkBlue;
     transition: 0.3s ease-out;
 }
 
@@ -217,7 +252,7 @@ form .fa-magnifying-glass{
     margin-bottom: 2rem;
 }
 
-#footer-email {
+.footer-email {
     width:250px;
     height: 40px;
     border-radius: 4px;
@@ -228,11 +263,11 @@ form .fa-magnifying-glass{
     margin-bottom: 1rem;
 }
 
-#footer-email::placeholder {
+.footer-email::placeholder {
     color: #b1b1b1;
 }
 
-#footer-email-btn {
+.footer-email-btn {
     width: 100px;
     height: 40px;
     border radius: 4px;
@@ -243,7 +278,7 @@ form .fa-magnifying-glass{
     font-size: 1rem:
 }
 
-#footer-email-btn:hover {
+.footer-email-btn:hover {
     cursor:pointer;
     background-color: #337AF1;
     transition: all 0.4s ease-out;
