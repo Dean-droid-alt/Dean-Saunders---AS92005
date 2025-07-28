@@ -1,5 +1,5 @@
 body{
-    background-image: url("../Image gallery/background.jpg");
+    background-image: url("/Image-Gallery/background2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ ul,ol{
     margin-left: 50px;
     margin-bottom:50px;
     padding: 40px 50px;
-    background: rgba(33, 70, 120, 1);
+    background: grey;
     left:150px;
     color: black;
     border-radius: 20px;
@@ -65,15 +65,57 @@ h1{
 
 }
 
-.image-gallery {
-    display:flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-    border 2px dashed gray;
-    padding: 20px;
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .image {
+        flex-direction:column;
+    }
 }
 
-.image-gallery img {
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    right:180px;
+    top:1100px;
+    position: absolute;
+    margin-right:2%;
+}
+
+.images img {
     border-radius: 8px;
+    object-fit: cover;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 290px;
+    right: -5px;
+    margin-right:3%;
+}
+
+.image img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 1650px) {
+    .image {
+        all: unset;
+        margin-left:50px;
+    }
+    .images {
+        all: unset;
+        margin-left:50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom:50px;
+    }
 }

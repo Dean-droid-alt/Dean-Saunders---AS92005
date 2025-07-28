@@ -95,11 +95,11 @@ form input{
     outline: none;
 }
 form button{
-    background: navy;
+    background: slategrey;
     padding: 10px 55px;
     border: none;
     outline: none;
-    color: #fff;
+    color: white;
     letter-spacing: 1px;
     cursor: pointer;
 }
