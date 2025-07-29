@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Image-Gallery/background2.jpeg");
+    background-image: url("../Image-Gallery/background2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ ul,ol{
 }
 
 .textbox h1 {
-    font-size 5rem;
+    font-size: 5rem;
     color: white;
     margin-bottom: 20px;
     font-weight: bold;
@@ -80,7 +80,7 @@ h1{
     flex-direction: column;
     gap: 40px;
     right:180px;
-    top:1100px;
+    top:1180px;
     position: absolute;
     margin-right:2%;
 }
@@ -117,5 +117,6 @@ h1{
         flex-direction: column;
         gap: 40px;
         margin-bottom:50px;
+        position:center;
     }
 }
