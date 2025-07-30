@@ -23,7 +23,7 @@ ul,ol{
     margin-left: 50px;
     margin-bottom:50px;
     padding: 40px 50px;
-    background: rgba(33, 70, 120, 1);
+    background: #06402B;
     left:150px;
     color: black;
     border-radius: 20px;
@@ -65,15 +65,17 @@ h1{
 
 }
 
-.image-gallery {
-    display:flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-    border: 2px dashed gray;
-    padding: 20px;
+.images img {
+    border-radius: 8px;
+    object-fit: cover;
 }
 
-.image-gallery img {
-    border-radius: 8px;
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 330px;
+    right: -5px;
+    margin-right:7%;
 }
