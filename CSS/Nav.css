@@ -109,7 +109,7 @@ form .fa-magnifying-glass{
     color:#777;
 }
 
-@media (max-width:768px) {
+@media (max-width:900px) {
  .navbar-container {
     height: 50px;
     padding: 1rem 0;
@@ -166,5 +166,9 @@ form .fa-magnifying-glass{
     .menu a:hover {
          background: #6495ED;
          color: white;
+    }
+
+    form {
+        display: none;
     }
 }
