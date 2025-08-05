@@ -1,3 +1,4 @@
+/*Styling for background and font*/
 body{
     background-image: url("../Image-Gallery/background.jpg");
     background-repeat: no-repeat;
@@ -9,13 +10,17 @@ body{
     box-sizing:border-box;
 }
 
+/*Gets rid of styling for links*/
 a{
     text-decoration:none;
 }
+
+/*Gets rid of styling for lists*/
 ul,ol{
     list-style:none;
 }
 
+/*Styling for textbox*/
 .textbox{
     max-width:800px;
     min-height: 400px;
@@ -30,6 +35,7 @@ ul,ol{
     font-weight: normal;
 }
 
+/*Styling for textbox header*/
 .textbox h1 {
     font-size: 3rem;
     color: white;
@@ -38,6 +44,7 @@ ul,ol{
     text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
+/*Styling for writing*/
 .intro {
     font-size: 1rem;
     line-height: 1.8;
@@ -51,28 +58,9 @@ ul,ol{
     text-align: left;
 }
 
-h1{
-    text-align: center;
-    font-size:50px;
-    color:white
-}
-
+/*Styling for video*/
 .video{
     text-align: center;
     margin: 20px auto;
     padding: 40px 50px;
-
-}
-
-.image-gallery {
-    display:flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-    border: 2px dashed gray;
-    padding: 20px;
-}
-
-.image-gallery img {
-    border-radius: 8px;
 }

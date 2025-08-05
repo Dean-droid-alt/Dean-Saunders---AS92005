@@ -88,6 +88,8 @@ form{
     height:45px;
     display: flex;
     margin-left: 30px;
+    border-radius: 8px;
+    object-fit: cover;
 }
 form input{
     flex: 1;
@@ -102,6 +104,8 @@ form button{
     color: white;
     letter-spacing: 1px;
     cursor: pointer;
+    border-radius: 8px;
+    object-fit: cover;
 }
 form .fa-magnifying-glass{
     align-self:center;
