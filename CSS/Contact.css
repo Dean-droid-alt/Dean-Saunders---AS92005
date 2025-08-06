@@ -20,12 +20,14 @@ ul,ol{
     list-style:none;
 }
 
+/*Styling for google form*/
 .form {
     float:right;
     margin-top: -540px;
     margin-right: 150px;
 }
 
+/*Styling for form when then screen is shrunk a certain amount*/
 @media (max-width: 1650px) {
     .form {
         all: unset;
@@ -77,28 +79,17 @@ ul,ol{
     text-align: left;
 }
 
+/*Styling for heading*/
 h1{
     text-align: center;
     font-size:50px;
     color:white
 }
 
+/*Styling for video*/
 .video{
     text-align: center;
     margin: 20px auto;
     padding: 40px 50px;
 
-}
-
-.image-gallery {
-    display:flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
-    border: 2px dashed gray;
-    padding: 20px;
-}
-
-.image-gallery img {
-    border-radius: 8px;
 }

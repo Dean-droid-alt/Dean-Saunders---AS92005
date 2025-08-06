@@ -1,3 +1,4 @@
+/*Styling for navbar*/
 nav {
     padding: 1rem 0;
     position: sticky;
@@ -7,6 +8,7 @@ nav {
     height: 100px;
 }
 
+/*Styling for navbar container*/
 .navbar-container {
     max-width: 100%;
     margin: 0 auto;
@@ -19,12 +21,14 @@ nav {
     margin-top: -10px;
 }
 
+/*Styling for logo*/
 .logo {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
+/*Styling for logo image*/
 .logo img {
     height: 120px;
     width: 200px;
@@ -32,11 +36,13 @@ nav {
     cursor: pointer;
 }
 
+/*Styling for nav links*/
 .menu {
     display: flex;
     gap: 25px;
 }
 
+/*Styling for nav links*/
 .menu a {
     color: white;
     font-size: 1.2rem;
@@ -46,12 +52,13 @@ nav {
     display: block;
 }
 
+/*Styling for nav links when hovered over*/
 .menu a:hover {
     background-color: #191970;
     border-radius: 4px;
-
 }
 
+/*Styling for hamburger menu*/
 .menu-toggle {
     display: none;
     font-size: 70px;
@@ -62,16 +69,19 @@ nav {
     transition: all 0.3s ease;
 }
 
+/*Styling for hamburger menu when hovered over*/
 .menu-toggle:hover {
     background-color: DarkBlue;
 }
 
+/*Styling for nav links in hamburger menu*/
 .menu-toggle.active {
     background-color: DarkBlue;
     position: relative;
     color: transparent;
 }
 
+/*Styling for X part of hamburger menu*/
 .menu-toggle.active::before {
     content: "x";
     font-size: 40px;
@@ -82,6 +92,7 @@ nav {
     color:white;
 }
 
+/*Styling for search bar*/
 form{
     background: #fff;
     width:600px;
@@ -91,11 +102,15 @@ form{
     border-radius: 8px;
     object-fit: cover;
 }
+
+/*Styling for search bar input*/
 form input{
     flex: 1;
     border: none;
     outline: none;
 }
+
+/*Styling for search bar button*/
 form button{
     background: slategrey;
     padding: 10px 55px;
@@ -107,13 +122,17 @@ form button{
     border-radius: 8px;
     object-fit: cover;
 }
+
+/*Styling for search bar symbol*/
 form .fa-magnifying-glass{
     align-self:center;
     padding: 10px 20px;
     color:#777;
 }
 
+/*Styling for navbar container when then screen is shrunk a certain amount*/
 @media (max-width:900px) {
+/*Styling for navbar container when screen is shrunk certain amount*/
  .navbar-container {
     height: 50px;
     padding: 1rem 0;
@@ -121,22 +140,26 @@ form .fa-magnifying-glass{
     display: flex;
     }
 
+    /*Styling for container when screen is shrunk certain amount*/
     .container{
     margin-left: 70px;
     margin-top: 10px;
     display:none;
     }
 
+    /*Styling for logo when screen is shrunk certain amount*/
     .logo{
     margin-top: 31px;
     margin-left: 60px;
     }
 
+    /*Styling for menu toggle when screen is shrunk certain amount*/
     .menu-toggle {
         display: block;
         margin-left: auto;
     }
 
+    /*Styling for nav links when screen is shrunk*/
     .menu {
         display: none;
         position: absolute;
@@ -152,10 +175,12 @@ form .fa-magnifying-glass{
         z-index: 1000;
     }
 
+    /*Styling for nav links when screen is shrunk*/
     .menu.active {
         display: flex;
     }
 
+    /*Styling for nav links when screen is shrunk*/
     .menu a {
         padding: 0.8rem 1.5rem;
         border-radius: 0;
@@ -163,15 +188,18 @@ form .fa-magnifying-glass{
         color:white;
     }
 
+    /*Styling for nav link list when screen is shrunk*/
     .menu li:last-child a {
         border-bottom: none;
     }
 
+    /*Styling for nav links when hovered over when screen is shrunk*/
     .menu a:hover {
          background: #6495ED;
          color: white;
     }
 
+    /*Styling for search bar when screen is shrunk*/
     form {
         display: none;
     }

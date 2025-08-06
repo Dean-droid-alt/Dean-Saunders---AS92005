@@ -58,12 +58,14 @@ ul,ol{
     text-align: left;
 }
 
+/*Styling for heading*/
 h1{
     text-align: center;
     font-size:50px;
     color:white
 }
 
+/*Styling for video*/
 .video{
     text-align: center;
     margin: 20px auto;
@@ -71,7 +73,7 @@ h1{
 
 }
 
-
+/*Styling for image*/
 .image{
     display: flex;
     flex-direction: column;
@@ -82,6 +84,7 @@ h1{
     margin-right:7%;
 }
 
+/*Styling for image when the screen is shrunk a certain amount*/
 @media (max-width: 1650px) {
     .image {
         all: unset;

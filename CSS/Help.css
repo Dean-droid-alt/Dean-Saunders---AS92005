@@ -73,6 +73,7 @@ h1{
 
 }
 
+/*Styling for images for the what you can do to help section*/
 .images {
     display: flex;
     flex-direction: column;
@@ -82,12 +83,12 @@ h1{
     position: absolute;
     margin-right:2%;
 }
-
 .images img {
     border-radius: 8px;
     object-fit: cover;
 }
 
+/*Styling for image for the why we should fight against climate change section*/
 .image{
     display: flex;
     flex-direction: column;
@@ -97,12 +98,12 @@ h1{
     right: -5px;
     margin-right:3%;
 }
-
 .image img {
     border-radius: 8px;
     object-fit: cover;
 }
 
+/*Styling for images when then screen is shrunk a certain amount*/
 @media (max-width: 1650px) {
     .image {
         all: unset;
