@@ -1,9 +1,10 @@
+/*Javascript for hamburger menu*/
 document.addEventListener('DOMContentLoaded', function() {
     const mobileToggle = document.querySelector('.menu-toggle');
     const mainNav = document.querySelector('.menu');
     const navbar = document.querySelector('nav');
 
-
+/*What happens when you click on the hamburger menu*/
     if (mobileToggle && mainNav) {
         mobileToggle.addEventListener('click', function() {
             mainNav.classList.toggle('active');
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-
+/*Close hamburger menu when something is clicked on*/
     const navLinks = document.querySelectorAll('.menu a');
     navLinks.forEach(link => {
         link.addEventListener('click', function() {

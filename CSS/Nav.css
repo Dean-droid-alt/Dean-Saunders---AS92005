@@ -204,3 +204,10 @@ form .fa-magnifying-glass{
         display: none;
     }
 }
+
+@media (max-width: 1400px) {
+    .container {
+        all: unset;
+        display:none;
+    }
+}
